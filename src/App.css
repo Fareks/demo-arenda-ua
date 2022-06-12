@@ -1,38 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;800&family=Montserrat:wght@300;400;700&display=swap");
+:root {
+    -webkit-box-shadow: 2px 5px 10px -1px rgba(0,0,0,0.26);
+    --nav-btn-hover-color: #ffa800;
+    --masteram-brand-color: #ffa800;
+    --siglent-brand-color: #192d4b;
+    --neutral-gray-color: #b5b8cf;
+    --text-color:rgb(31, 30, 30);
+    --nav-btn-color:aliceblue;
+    --white-blue-background: #f2f8ff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex: 1 1 100%;
+    
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-content {
+    flex: 1 1 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    overflow-x: hidden;
+    background-color: #ffffff;
+    font-family: 'Nunito Sans';
+    height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-weight: 800;
+    margin: 0;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  margin: 0px;
 }

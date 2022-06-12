@@ -1,0 +1,145 @@
+.main-section-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin: 0px 100px;
+}
+
+.pre-h1 {
+    font-weight: 400;
+    color: #AAAAAA;
+    font-size: 18px;
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.secondary-text {
+    color:#AAAAAA;
+}
+.mainpage-search-button {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px solid #8EEBFF;
+    background-color: #8EEBFF;
+    padding: 14px 28px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.mainpage-search-button:hover {
+    background-color: #7ed3e6;
+}
+
+/* POSTER AREA START */
+.poster-area {
+    width: 420px;
+    height: 100%;
+    user-select: none;
+    pointer-events: none;
+    position: relative;
+}
+.block1 {
+    position: absolute;
+    z-index: 1;
+    left: -140px;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+    background-color: #E1FAFF;
+    width: 1000px;
+    height: 100%;
+}
+.block2 {
+    position: absolute;
+    z-index: 2;
+    left: -70px;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+    background-color: #AEF0FF;
+    width: 1000px;
+    height: 100%;
+}
+.block3 {
+    position: absolute;
+    z-index: 4;
+    left: 0px;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+    background-color: #44DDFF;
+    width: 1000px;
+    height: 100%;
+}
+.block4 {
+    position: absolute;
+    z-index: 5;
+    left: 408px;
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+    background-color: #09C7F1;
+    width: 1000px;
+    height: 100%;
+}
+.img-poster {
+    position: absolute;
+    z-index: 5;
+    left: -20px;
+    top: 11%;
+}
+
+.poster-decoration-container {
+    height: 729px;
+    width: 614px;
+    position: absolute;
+    z-index: 6;
+    left: -20px;
+    top: 11%;
+}
+.poster-decoration {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 5;
+    left: -30px;
+    top: 99%;
+    clip-path: polygon(0 0, 19% 0, 19% 81%, 100% 81%, 100% 100%, 0 100%);
+    background-color: #207b90;
+}
+
+.poster-decoration2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    z-index: 5;
+    top: 11%;
+    clip-path: polygon(0 0, 19% 0, 19% 81%, 100% 81%, 100% 100%, 0 100%);
+    background-color: #207b90;
+    transform: rotate(180deg);
+    left: 420px;
+}
+
+@media screen and (max-width:1200px) {
+    .poster-area {
+        max-width: 220px;
+        user-select: none;
+        pointer-events: none;
+        position: relative;
+    }
+}
+@media screen and (max-width:600px) {
+    .poster-area {
+        display: none;
+    }
+    .text-area {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
