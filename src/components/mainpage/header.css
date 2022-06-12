@@ -11,10 +11,12 @@
 .logo-area {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     margin-left: 120px;
 }
-
+.logo {
+    border-radius: 30px;
+}
 .logo-name {
     font-size: 24px;
     margin: 0px;

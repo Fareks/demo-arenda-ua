@@ -1,18 +1,19 @@
 import './header.css';
-import logo from '../../img-content/mainpage/logo.png'
-
+import logo from '../../img-content/logo.png'
+import { Link } from 'react-router-dom';
 const Header = () => {
 return (
  <header className="header">
-    <div className="logo-area">
-        <img src={logo} width="37" height="37" alt="" />
+    <Link to="/" className="logo-area">
+    
+        <img src={logo} width="37" height="37" alt=""  className='logo'/>
         <p className="logo-name"  >Arenda.ua</p>
-    </div>
+    </Link>
     <nav class="menu">
   <ul>
-    <li><a href="#">Головна</a></li>
-    <li><a href="#">Каталог</a></li>
-    <li><a href="#">Контакти</a></li>
+    <li><Link to="/">Головна</Link></li>
+    <li><Link to="catalog">Каталог</Link></li>
+    <li><Link to="">Контакти</Link></li>
   </ul>
 </nav>
  </header>
