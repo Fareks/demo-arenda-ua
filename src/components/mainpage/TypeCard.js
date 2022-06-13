@@ -7,7 +7,7 @@ const TypeCard = ({img,text,link}) => {
         <Link to={link}>
             <motion.div 
             initial={{y:0}}
-            whileHover={{y:'9px',scale:1.04}}
+            whileHover={{y:'6px',scale:1.03}}
             className="type-card-container">
                 <motion.div 
                 whileHover={{opacity:0}}
