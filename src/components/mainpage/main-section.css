@@ -5,6 +5,7 @@
     overflow: hidden;
     align-items: center;
     justify-content: center;
+    background-image: url('../../img-content/mainpage/background-mainpage.png');
 }
 
 .text-area {
@@ -16,12 +17,13 @@
 
 .pre-h1 {
     font-weight: 400;
-    color: #AAAAAA;
+    color: #ecf0f4;
     font-size: 18px;
     margin: 0;
 }
 h1 {
     margin: 0;
+    color: #E1FAFF;
 }
 .secondary-text {
     color:#AAAAAA;
@@ -34,13 +36,13 @@ h1 {
     font-size: 16px;
     font-weight: 700;
     border: 0px solid #8EEBFF;
-    background-color: #8EEBFF;
+    background-color: #93CBFF;
     padding: 14px 28px;
     border-radius: 7px;
     transition: 0.3s;
 }
 .mainpage-search-button:hover {
-    background-color: #7ed3e6;
+    background-color: #c8e4ff;
 }
 
 /* POSTER AREA START */
@@ -56,7 +58,7 @@ h1 {
     z-index: 1;
     left: -140px;
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
-    background-color: #E1FAFF;
+    background-color: #0E203D;
     width: 1000px;
     height: 100%;
 }
@@ -65,7 +67,7 @@ h1 {
     z-index: 2;
     left: -70px;
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
-    background-color: #AEF0FF;
+    background-color: #1D437D;
     width: 1000px;
     height: 100%;
 }
@@ -74,7 +76,7 @@ h1 {
     z-index: 4;
     left: 0px;
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
-    background-color: #44DDFF;
+    background-color: #85C1ED;
     width: 1000px;
     height: 100%;
 }
@@ -83,7 +85,7 @@ h1 {
     z-index: 5;
     left: 408px;
     clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
-    background-color: #09C7F1;
+    background-color: #AAD6FE;
     width: 1000px;
     height: 100%;
 }
@@ -110,7 +112,7 @@ h1 {
     left: -30px;
     top: 99%;
     clip-path: polygon(0 0, 19% 0, 19% 81%, 100% 81%, 100% 100%, 0 100%);
-    background-color: #207b90;
+    background-color: #86b2fd;
 }
 
 .poster-decoration2 {
@@ -120,7 +122,7 @@ h1 {
     z-index: 5;
     top: 11%;
     clip-path: polygon(0 0, 19% 0, 19% 81%, 100% 81%, 100% 100%, 0 100%);
-    background-color: #207b90;
+    background-color: #cde0ff;
     transform: rotate(180deg);
     left: 420px;
 }

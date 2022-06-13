@@ -21,6 +21,7 @@
     font-size: 24px;
     margin: 0px;
     font-weight: bold;
+    color:aliceblue;
 }
 .menu {
     margin: 0px 80px;
@@ -29,7 +30,7 @@ ul {
     list-style: none;
     display: flex;
     gap:30px;
-    font-weight: 700;
+    font-weight: 400;
     align-items: center;
     margin: 0px;
     height: 60px;
@@ -39,6 +40,7 @@ ul {
     display: flex;
     align-items: center;
     position: relative;
+    color: aliceblue;
 }
 .menu > ul > li > a:after{
     content: '';

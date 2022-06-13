@@ -7,7 +7,7 @@ return (
     <Link to="/" className="logo-area">
     
         <img src={logo} width="37" height="37" alt=""  className='logo'/>
-        <p className="logo-name"  >Arenda.ua</p>
+        <p className="logo-name"  >Orenda.ua</p>
     </Link>
     <nav class="menu">
   <ul>
