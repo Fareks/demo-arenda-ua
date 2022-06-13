@@ -1,0 +1,32 @@
+.type-card-section {
+    display: flex;
+    background-color:#E1FAFF ;
+    justify-content: center;
+    height: 383px;
+}
+.type-card-container {
+    margin:30px 0px;
+    display: flex;
+    position: relative;
+    max-width: 400px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.type-card-img {
+    width: 100%;
+    height: auto;
+}
+.type-card-text {
+    position: absolute;
+    bottom:20px;
+    font-size: 32px;
+    font-weight: 400;
+    color: aliceblue;
+
+}
+@media screen and (max-width:1200px) {
+    .type-card-text {
+        font-size:20px;
+    }
+}
+
