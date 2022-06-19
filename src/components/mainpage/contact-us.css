@@ -1,0 +1,79 @@
+.contact-us-section {
+    background-color: #F7FAFC;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+    gap: 30px;
+}
+.contact-us-section form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 40%;
+    max-width: 500px;
+    align-items: center;
+    flex-shrink: 2;
+    
+}
+textarea {
+    resize: none;
+    background-color: #F8F8FA;
+    border: 0px solid;
+    width: 100%;
+    font-family: 'Nunito Sans';
+    border-radius: 12px;
+}
+form input {
+    background-color: #F8F8FA;
+    border: 0px solid;
+    margin: 10px 0px;
+    height: 30px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 6px;
+}
+#message {
+    height: 250px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 6px;
+}
+#submit-button {
+    margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 14px 26px;
+    border-radius: 5px;
+    background-color: #B7F2FF;
+    align-self: center;
+    cursor: pointer;
+    transition:  0.2s;
+}
+#submit-button:hover {
+    background-color: #a9dce7;
+}
+.all-contacts {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    max-width: 500px;
+    width: 40%;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 500px;
+    align-items: flex-start;
+    gap: 30px;
+    height: fit-content;
+}
+.contacts-header {
+    font-size: 18px;
+    font-weight: 700;
+}

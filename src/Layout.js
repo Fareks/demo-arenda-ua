@@ -2,10 +2,10 @@ import { Outlet } from "react-router-dom";
 import Header from './components/mainpage/header'
 import Footer from './components/mainpage/footer'
 import Mainpage from './components/mainpage/Mainpage'
-const Layout = () => {
+const Layout = ({theme}) => {
 return (
  <>
-    <Header/>
+    <Header theme={theme}/>
     <div className="main-content">
         <Outlet/>
     </div>

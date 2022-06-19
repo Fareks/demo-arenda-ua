@@ -17,11 +17,17 @@
 .logo {
     border-radius: 30px;
 }
-.logo-name {
+.white-logo {
     font-size: 24px;
     margin: 0px;
     font-weight: bold;
     color:aliceblue;
+}
+.dark-logo {
+    font-size: 24px;
+    margin: 0px;
+    font-weight: bold;
+    color:rgb(36, 37, 37);
 }
 .menu {
     margin: 0px 80px;
@@ -35,12 +41,19 @@ ul {
     margin: 0px;
     height: 60px;
 }
-.menu > ul > li > a {
+.header-links-white {
     height: 40px;
     display: flex;
     align-items: center;
     position: relative;
     color: aliceblue;
+}
+.header-links-dark {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: rgb(25, 26, 27);
 }
 .menu > ul > li > a:after{
     content: '';
